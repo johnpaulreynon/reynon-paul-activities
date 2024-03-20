@@ -1,0 +1,39 @@
+h1 {
+    font-size: 30px;
+        color:rgba(222, 7, 64, 0.897);
+}
+
+label {
+    background-color:rgb(47, 236, 236)
+
+}
+
+#userlabel {
+    font-size:20px;
+    color:rgb(255, 55, 0);
+
+
+}
+ 
+#passlabel {
+    font-size:20px;
+    color:rgba(255, 0, 0, 0.877);
+}
+
+.labelClass {
+    color:rgb(255, 0, 0);
+
+}
+
+body {
+    background-color:rgba(234, 10, 66, 0.246);
+
+}
+
+#id {
+    font-size:20px;
+    color:rgba(2, 0, 128, 0.973);
+}
+
+
+

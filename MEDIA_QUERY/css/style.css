@@ -1,0 +1,127 @@
+body {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+p {
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    color:whitesmoke;
+    font-style: italic;
+   
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background: red;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+        height: 52px;
+        color:whitesmoke;
+        font-style: italic;
+    }
+
+    img {
+        content: url('image/image1.jpg');
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background: orange;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 40px;
+        height: 70px;
+        color:whitesmoke;
+        font-style:italic;
+    }
+
+    img {
+        content: url('image/image2.jpg');
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background: green;
+    }
+
+    p {
+        font-size: 60px;
+    }
+
+    h1 {
+        font-size: 70px;
+        height: 80px;
+        color:whitesmoke;
+        font-style: italic;
+    }
+
+    img {
+        content: url('image/image3.jpg');
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        background: yellow;
+    }
+
+    p {
+        font-size: 90px;
+    }
+
+    h1 {
+        font-size: 90px;
+        height: 90px;
+        color:whitesmoke;
+        font-style: italic;
+    }
+
+    img {
+        content: url('image/image4.jpg');
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background:red;
+    }
+
+    p {
+        font-size: 200px;
+    }
+
+    h1 {
+        font-size: 100px;
+        height: 180px;
+        color:whitesmoke;
+        font-style: italic;
+    }
+
+    img {
+        content: url('image/image5.jpg');
+    }
+}
